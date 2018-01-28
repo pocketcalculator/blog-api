@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: j4Bpf7damWgeFztKHgJqst+cbvlirZS38tiBKaJMnpH2A96NMxbXUmNtrKyM6qQlV7qN/H0Dvl78ZYmu2KmEijX6ceF2x4XXYUxktxUiO57dKI1A1Pwz5YIkqYIN5/VHc3XW20ajIaagc9kXD4Um9qNL5ZbyhMB7dzpYuAF59nuq1gc7zUydyCHz5FbbGP7GyRW/tib9/eGHLidDc9ZZGTJ5GBTVbnbmIO8M7OcVQ7Cm/sttvuOp2m85ncNgDpyRNh8JBCqtjxtjuJm4GXGI0ICPlx5VuwYiXn69mYN9ZPz5NHwLrtZbGXqeEHExE8uBKPE2gGJEL08TzBrg+PbssfGDK+f+OBvi5RXLe/2ul/hNIpowi4UjOU8tanEs2f2q5Xit70jc8LoYLk7XYNqr8tegi6ht/WhS33t+NBVllF65yXWuxJya62cqCvAhDwri6/mKXgHR3RGn2JCN5MNOoncnHLT6wdy6LFdHTZ5h6gWBNBuAb5StGYnjGG1Z+3oGYJZTKBpiT3KC6S54Klb96v0ypK6xMWGTPqyOosGRtXVN4+/5bgqE/+q0dXkWB6EI0EvkuV4Fq04MLPhRB0k61obfmf8m49QuxUciWDL9MuXbBmN+URv5kL2cozc81qNf+EkTZVIh28v1mAmgfCbbbUkyTbthttlnhhu8c95qwg4=
+  app: gentle-coast-46133
+  on:
+    repo: pocketcalculator/blog-api
