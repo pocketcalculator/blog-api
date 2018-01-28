@@ -67,9 +67,9 @@ app.delete('/blog-posts/:id', (req, res) => {
   res.status(204).end();
 });
 
-app.listen(process.env.PORT || 8080, () => {
-  console.log(`Your app is listening on port ${process.env.PORT || 8080}`);
-});
+// app.listen(process.env.PORT || 8080, () => {
+//   console.log(`Your app is listening on port ${process.env.PORT || 8080}`);
+// });
 
 // this function starts our server and returns a Promise.
 // In our test code, we need a way of asynchronously starting
